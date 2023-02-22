@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes shop</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar sps sps--abv" data-sps-offset="200">
+      <div class="container container-navbar">
+        <div class="wrapper-content">
+          <div class="wrapper-form">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Serch" aria-describedby="search">
+                <button class="btn-form" type="button" id="search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="wrapper-navbar">
+            <a class="brand" href="index.html">
+              stylishly
+            </a>
+            <button class="navbar-toggler" type="button">
+              <div class="toggler-icon">
+                <div class="nav-line"></div>
+                <div class="nav-line"></div>
+                <div class="nav-line"></div>
+              </div>
+            </button>
+            <div class="navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button class="nav-link nav-cta">Shop</button>
+                  <button class="nav-link scroll-cta" >Shop</button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Team</a>
+                </li>
+              </ul>
+              <div class="wrapper-nav-bottom scroll">
+                <div class="b-content scroll">
+                  <a class="h2" href="subpage.html">Clothes</a>
+                  <ul class="b-nav">
+                    <li class="b-item">
+                      <a href="subpage.html" class="b-link">Bags</a>
+                    </li>
+                    <li class="b-item">
+                      <a href="subpage.html" class="b-link">Scarves</a>
+                    </li>
+                    <li class="b-item">
+                      <a href="subpage.html" class="b-link">Shoes</a>
+                    </li>
+                    <li class="b-item">
+                      <a href="subpage.html" class="b-link">Coats</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="recommended">
+                  <p class="item-r">Featured Products</p>
+                  <div class="wrapper-img item-r">
+                    <a href="" class="item ">
+                      <div class="img">
+                        <img src="images/recommended1.jpg" alt="Girl with glasses">
+                      </div>
+                      <div class="text">Glasess</div>
+                    </a>
+                    <a href="" class="item">
+                      <div class="img">
+                        <img src="images/recommended2.jpg" alt="Girl in a suit">
+                      </div>
+                      <div class="text">Siuts</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-info">
+              <a href="login.html" class="item user">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z"/></svg>
+              </a>
+              <a href="basket.html" class="item basket">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+              </a>
+              <div class="item btn-search">
+                <svg class="s-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
+                <svg class="s-xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+              </div>
+
+            </div>
+            
+          </div>
+          <div class="wrapper-nav-bottom top">
+            <div class="b-content">
+              <a class="h2" href="subpage.html">Clothes</a>
+              <ul class="b-nav">
+                <li class="b-item">
+                  <a href="subpage.html" class="b-link">Bags</a>
+                </li>
+                <li class="b-item">
+                  <a href="subpage.html" class="b-link">Scarves</a>
+                </li>
+                <li class="b-item">
+                  <a href="subpage.html" class="b-link">Shoes</a>
+                </li>
+                <li class="b-item">
+                  <a href="subpage.html" class="b-link">Coats</a>
+                </li>
+              </ul>
+            </div>
+            <div class="recommended">
+              <p>Featured Products</p>
+              <div class="wrapper-img">
+                <a href="" class="item">
+                  <div class="img">
+                    <img src="images/recommended1.jpg" alt="Girl with glasses">
+                  </div>
+                  <div class="text">Glasess</div>
+                </a>
+                <a href="" class="item">
+                  <div class="img">
+                    <img src="images/recommended2.jpg" alt="Girl in a suit">
+                  </div>
+                  <div class="text">Siuts</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container-fluid hero">
+        <div class="container">
+          <h1 class="h-header">The best choice</h1>
+        </div>
+        <div class="swiper hero-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/hero1.jpg" alt="fashion girl" class="img-hero">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/hero2.jpg" alt="fashion girl" class="img-hero">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/hero3.jpg" alt="fashion girl" class="img-hero">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container-fluid s-popular bg-black">
+      <img class="img-bg" src="images/shadow.png" alt="">
+      <div class="container">
+        <h2>most popular</h2>
+        <div class="wrapper-card">
+          <div  class="c-card"> 
+            <button class="heart active">
+              <svg class="svg-heart like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+              <svg class="svg-heart no-likie"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"/></svg>
+            </button>
+            <a href="sub-card.html" class="link-card">
+              <div class="img">
+                <img src="images/card2.jpg" alt="Woman in a sweater">
+                <h3 class="h-hover">Green sweater</h3>
+              </div>
+              <div class="content">
+                <div class="text">
+                  <h3>Green sweater</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="price">
+                  199,99$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div  class="c-card"> 
+            <button class="heart">
+              <svg class="svg-heart like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+              <svg class="svg-heart no-likie"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"/></svg>
+            </button>
+            <a href="sub-card.html" class="link-card">
+              <div class="img">
+                <img src="images/card3.jpg" alt="Woman in a blouse">
+                <h3 class="h-hover">Dark blouse</h3>
+              </div>
+              <div class="content">
+                <div class="text">
+                  <h3>Dark blouse</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi consequuntur accusamus</p>
+                </div>
+                <div class="price">
+                  99,99$
+                </div>
+              </div>
+            </a>
+          </div>
+          <div  class="c-card"> 
+            <button class="heart">
+              <svg class="svg-heart like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+              <svg class="svg-heart no-likie"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currnetColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"/></svg>
+            </button>
+            <a href="sub-card.html" class="link-card">
+              <div class="img">
+                <img src="images/card1.jpg" alt="Woman in a jacket">
+                <h3 class="h-hover">Plaid jacket</h3>
+              </div>
+              <div class="content">
+                <div class="text">
+                  <h3>Plaid jacket</h3>
+                  <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="price">
+                  299,99$
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid s-banner">
+      <div class="wrapper">
+        <div class="right">
+          <img src="images/banner.jpg" alt="Fashion woman">
+        </div>
+        <div class="left">
+          <div class="content">
+            <h2>let's meet local designers</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, beatae. Ab consequatur eaque qui reprehenderit laborum ea temporibus molestiae, dolorem laudantium sequi voluptas aperiam odit soluta itaque. Tenetur inventore explicabo molestiae suscipit consequuntur unde laboriosam, recusandae doloribus quidem? Molestiae architecto soluta rerum libero reiciendis quisquam alias laborum assumenda, id corporis!</p>
+            <div class="wrapper-btn">
+              <a href="subpage.html" class="btn btn-primary">Zobacz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid s-about">
+      <img src="images/leaf.png" alt="" class="bg-img">
+      <img src="images/bg-about.jpeg" alt="" class="hover-img">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="content">
+          <div class="wrapper-grid-about">
+            <span class="text">Lorem ipsum dolor sit.</span>
+              <a href="team.html" class="img">
+                <span class="text-grid">Kate</span>
+                <img src="images/1.jpg" alt="Ann">
+              </a>
+            <span class="text">Lorem ipsum dolor sit amet consectetur. </span>
+              <a href="team.html" class="img">
+                <span class="text-grid">Justin</span>
+                <img src="images/4.jpg" alt="Ann">
+              </a>
+            <span class="text">Lorem, ipsum dolor sit amet.</span>
+              <a href="team.html" class="img">
+                <span class="text-grid">Ann</span>
+                <img src="images/5.jpg" alt="Ann">
+              </a>
+            <span class="text">Lorem ipsum dolor sit.</span>
+              <a href="team.html" class="img">
+                <span class="text-grid">Damian</span>
+                <img src="images/11.jpg" alt="Ann">
+              </a>
+          </div>
+          <div class="wrapper-btn">
+            <button class="btn-circle">
+              <span class="btn-circle-text">
+                <span data-text="See">
+                  See
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid s-portfolio">
+      <img src="images/shadow.png" alt="" class="bg-img">
+      <div class="wrapper">
+        <div class="img i-1">
+          <img src="images/hero1.jpg" alt="" > 
+        </div>
+        <div class="img i-2">
+          <img src="images/11.jpg" alt="" > 
+        </div>
+        <div class="img i-3">
+          <img src="images/1.jpg" alt="" > 
+        </div>
+        <div class="img i-4">
+          <img src="images/5.jpg" alt="" > 
+        </div>
+        <div class="img img-vis i-5">
+          <img src="images/hero3.jpg" alt="" > 
+        </div>
+        <div class="img i-6">
+          <img src="images/banner.jpg" alt="" > 
+        </div>
+        <div class="wrapper-btn portfolio">
+          <a href="portfolio.html" class="btn-circle">
+            <span class="btn-circle-text">
+              <span data-text="Look">
+                Look
+              </span>
+            </span>
+          </a>
+        </div> 
+        <h2>Gallery</h2> 
+      </div>
+    </section>
+
+    <section class="container-fliud s-contact bg-black ">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="wrapper">
+          <div class="item">
+            <lottie-player src="images/lottie/girl-shopping.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
+          </div>
+          <div class="item">
+            <form>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="formMail" placeholder="name@example.com">
+                <label for="formMail">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="formName" placeholder="Name">
+                <label for="formName">Name</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="message" id="message" style="height: 100px"></textarea>
+                <label for="message">Message</label>
+              </div>
+              <div class="wrapper-btn">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#formModal">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid s-footer bg-black">
+      <div class="container">
+        <div class="wrapper">
+          <div class="item">
+            <a class="brand" href="index.html">
+              stylishly
+            </a>
+          </div>
+          <div class="item">
+            <h5>Contact</h5>
+            <ul>
+              <li>27 Old Gloucester Street
+               <span>London</span> 
+              </li>
+              <li> <a href="mailto:mail@stylishly.com">mail@stylishly.com</a></li>
+              <li> <a href="tel:020 7562 5000">020 7562 5000</a></li>
+            </ul>
+          </div>
+          <div class="item">
+            <h5>Menu</h5>
+            <ul>
+              <li><a href="subpage.html">Shop</a></li>
+              <li><a href="porfolio.html">Portfolio</a></li>
+              <li><a href="team.html">Team</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Message sent</h3>
+            <lottie-player src="images/lottie/message.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollPosStyler.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
+
