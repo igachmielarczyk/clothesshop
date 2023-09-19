@@ -845,7 +845,8 @@ h1 {
   color: #e6d6d6;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 4rem;
   font-weight: 300;
   color: #e6d6d6;
@@ -1912,7 +1913,8 @@ section h2 {
   h1 {
     font-size: 5rem;
   }
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 3rem;
   }
   .s-popular {
@@ -1976,7 +1978,8 @@ section h2 {
   }
 }
 @media only screen and (max-width: 1199.98px) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 2.5rem;
   }
   .wrapper-grid-about {
@@ -2092,7 +2095,8 @@ section h2 {
   .wrapper-grid-about .img .text-grid {
     font-size: 2rem;
   }
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 2.25rem;
   }
   .s-banner .wrapper .left .content {
@@ -2338,7 +2342,8 @@ section h2 {
   }
 }
 @media only screen and (max-width: 575.98px) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 1.75rem;
   }
   h1 {
@@ -2493,5 +2498,14 @@ section h2 {
   .s-basket .wrapper .c-right .box {
     width: 100%;
     text-align: center;
+  }
+  .c-card .img::before {
+    padding-top: 123%;
+  }
+  .c-card:hover .link-card .img::before {
+    padding-top: 124%;
+  }
+  .hero {
+    height: 90vh;
   }
 }/*# sourceMappingURL=style.css.map */
